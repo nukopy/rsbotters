@@ -1,6 +1,6 @@
 [package]
 name = "rsbotters"
-version = "0.1.0"
+version = "0.0.1"
 description = "Cryptocurrency exchange API for traders, known as \"botters\" in Rust"
 authors = ["nukopy <nukopy@gmail.com>"]
 edition = "2021"
