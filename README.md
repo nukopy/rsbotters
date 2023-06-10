@@ -1,6 +1,15 @@
 # rsbotters
 
-![GitHub Actions workflow badge](https://github.com/nukopy/rsbotters/actions/workflows/ci.yml/badge.svg?branch=main) ![Crates.io version badge](https://img.shields.io/crates/v/rsbotters?style=flat-square)
+[![Crates.io version badge][crates-badge]][crates-url]
+[![MIT license badge][mit-badge]][mit-url]
+[![GitHub Actions workflow badge][github-actions-badge]][github-actions-url]
+
+[crates-badge]: https://img.shields.io/crates/v/rsbotters.svg?style=flat-square
+[crates-url]: https://crates.io/crates/rsbotters
+[mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[mit-url]: https://github.com/tokio-rs/tokio/blob/master/LICENSE
+[github-actions-badge]: https://github.com/nukopy/rsbotters/actions/workflows/ci.yml/badge.svg?branch=main
+[github-actions-url]: https://github.com/nukopy/rsbotters/actions/workflows/ci.yml?query=branch:main
 
 Cryptocurrency exchange API client for traders, known as "botters" in Rust
 
