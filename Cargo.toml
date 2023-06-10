@@ -1,0 +1,12 @@
+[package]
+name = "rsbotters"
+version = "0.1.0"
+description = "Cryptocurrency exchange API for traders, known as \"botters\" in Rust"
+authors = ["nukopy <nukopy@gmail.com>"]
+edition = "2021"
+license = "MIT"
+homepage = "https://github.com/nukopy/rsbotters"
+repository = "https://github.com/nukopy/rsbotters.git"
+readme = "README.md"
+
+[dependencies]
