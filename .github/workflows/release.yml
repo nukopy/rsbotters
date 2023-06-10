@@ -1,0 +1,20 @@
+name: Release to Crates.io
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+      url: https://crates.io/crates/rsbotters
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+      - name: Publish to Crates.io
+        run: cargo publish --token ${{ secrets.CRATES_IO_API_TOKEN }}
