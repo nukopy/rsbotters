@@ -2,7 +2,7 @@
 
 ![GitHub Actions workflow badge](https://github.com/nukopy/rsbotters/actions/workflows/ci.yml/badge.svg?branch=main)
 
-Cryptocurrency exchange API for traders, known as "botters" in Rust
+Cryptocurrency exchange API client for traders, known as "botters" in Rust
 
 ## Features
 
