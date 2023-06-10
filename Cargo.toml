@@ -1,13 +1,15 @@
 [package]
 name = "rsbotters"
 version = "0.0.1"
-description = "Cryptocurrency exchange API client for traders, known as \"botters\" in Rust"
-authors = ["nukopy <nukopy@gmail.com>"]
 edition = "2021"
+rust-version = "1.69.0"
+authors = ["nukopy <nukopy@gmail.com>"]
 license = "MIT"
-homepage = "https://github.com/nukopy/rsbotters"
-repository = "https://github.com/nukopy/rsbotters.git"
 readme = "README.md"
+repository = "https://github.com/nukopy/rsbotters"
+homepage = "https://github.com/nukopy/rsbotters"
+description = "Cryptocurrency exchange API client for traders, known as \"botters\" in Rust"
+categories = ["cryptocurrency", "trading"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
